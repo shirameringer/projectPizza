@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "SJH+uI8b33pZiGjbdgTVC3FX6mumo4gAujE485IKyD6qr3/4Emp7q50LuH17u+pQ7lNWqp6F3E4y4cpBfSUnpA==",
+  "success": true,
+  "projectFilePath": "H:\\projectPizza\\porjectPizza\\h_w2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
