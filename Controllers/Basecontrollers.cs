@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace h_w2.Controllers;
+namespace PROJECTPIZZA.Controllers;
 
 [ApiController]
 [Route("[controller]")]
