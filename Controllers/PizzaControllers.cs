@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using porjectPizza.Interfaces;
 using webapi;
 
 
@@ -18,26 +19,28 @@ public class PizzaController : Basecontrollers
 
 [Route("[action]/{id}")]
 [HttpGet] 
- public  IActionResult cGetPizzaName(int id){
+ public IActionResult GetPizzaName(int id){
    string s1;
    s1=_pizza.GetPizzaName(id);
    if(s1!=null){
-    Ok(s1);
+     return Ok(s1);
+     
    }
-    return NotFound();
-
+   
+    return NotFound(s1);
  }
 
    
 [Route("[action]/{name}")]
 [HttpGet] 
-public IActionResult GetPizzaDetailse(string name){
-   string s1;
-   s1=_pizza.GetPizzaDetailse(name);
-   if(s1!=null)
-   return Ok(s1);
+public IActionResult GetPizzaprice(string name){
+   double price;
+   price=_pizza.GetPizzaprice(name);
+   if(price>0)
+   return Ok(price);
 return NotFound();
 }
+
 
 [Route("[action]/{id}/{newid}")]
 [HttpPut] 
@@ -53,15 +56,19 @@ public IActionResult UpdateId(int id,int newid){
 [Route("[action]/{name}")]
 [HttpDelete] 
 public IActionResult DeleletItem(string name){
-    
+  bool flag;
+   flag=_pizza.DeleletItem(name);
+   if(flag==true)
+   return Ok("delete");
     return NotFound();
 
 }
 
 [Route("[action]/{id}/{ifgloten}/{pizzaName}")]
 [HttpPost] 
-public IActionResult AddItem(int id,bool ifgloten,string pizzaName){
-// type.Add(new Pizza(id,ifgloten,pizzaName));
+public IActionResult AddItem(int id,bool ifgloten,string pizzaName,double price){
+
+_pizza.AddItem(id,ifgloten,pizzaName,price);
 return Ok("add item");
 }
 

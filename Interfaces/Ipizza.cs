@@ -1,8 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
+namespace porjectPizza.Interfaces
+{
 public interface Ipizza{
-public  string  GetPizzaName(int id);
-public string GetPizzaDetailse(string name);
-public bool UpdateId(int id,int newid);
-public bool DeleletItem(string name);
- public bool GetPizzaDetailse(int id, int newid);
+string  GetPizzaName(int id);
+double GetPizzaprice(string name);
+bool UpdateId(int id,int newid);
+bool DeleletItem(string name);
+void AddItem(int id,bool ifgloten,string pizzaName,double price);
+}
 }
