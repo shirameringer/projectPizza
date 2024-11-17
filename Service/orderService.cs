@@ -16,15 +16,12 @@ namespace porjectPizza.Service
          };
        
 
-        public bool postOrder(string pizzaName, int count, string customerName)
+        public void postOrder(string pizzaName, int count, string customerName)
         {
-            
+           OrderList.Add(new Order(pizzaName,count,customerName,150.6));
             
         }
 
-        public double getPrice(string customerName)
-        {
-          
-        }
+       
     }
 }

@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace porjectPizza.Interfaces
 {
-    public interface Iorder
+    public interface Iworker
     {
-        void postOrder(string pizzaName,int count,string customerName);
-       
+        public string getWorkerById(int id);
+        public void postworker(int id,string fname,string lNmae);
     }
 }

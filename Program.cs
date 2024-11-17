@@ -1,4 +1,5 @@
 using porjectPizza.Interfaces;
+using porjectPizza.Service;
 using PROJECTPIZZA;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<Ipizza, pizzaService>();
+builder.Services.AddTransient<Iorder,orderService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
