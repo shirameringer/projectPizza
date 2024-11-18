@@ -12,9 +12,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<Ipizza, pizzaService>();
 builder.Services.AddTransient<Iorder,orderService>();
+builder.Services.AddTransient<Iworker,workerService>();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP requestd pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

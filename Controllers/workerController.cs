@@ -5,28 +5,42 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using porjectPizza.Interfaces;
+using porjectPizza.models;
 
 namespace porjectPizza.Controllers
 {
-    [Route("[controller]")]
-    public class workerController : Controller
+
+    public class workerController : Basecontrollers
     {
-        private readonly ILogger<workerController> _logger;
-
-        public workerController(ILogger<workerController> logger)
+        Iworker _worker;
+        public workerController(Iworker worker)
         {
-            _logger = logger;
+            _worker = worker;
         }
 
-        public IActionResult Index()
+        [Route("[action]/{id}")]
+        [HttpGet]
+        public IActionResult getWorkerById(int id)
         {
-            return View();
-        }
+            Worker w1;
+            w1 = _worker.getWorkerById(id);
+            if (w1 != null)
+            {
+                return Ok(w1);
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+            }
+
+            return NotFound();
+        }
+        [Route("[action]/{id}/{ifgloten}/{pizzaName}")]
+        [HttpPost]
+
+        public IActionResult postworker(int id, string fname, string lNmae)
         {
-            return View("Error!");
+
+            _worker.postworker(id, fname, lNmae);
+            return Ok("add item");
         }
     }
 }
