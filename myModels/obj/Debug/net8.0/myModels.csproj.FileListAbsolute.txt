@@ -1,0 +1,11 @@
+H:\webApiProject\myModels\bin\Debug\net8.0\myModels.deps.json
+H:\webApiProject\myModels\bin\Debug\net8.0\myModels.dll
+H:\webApiProject\myModels\bin\Debug\net8.0\myModels.pdb
+H:\webApiProject\myModels\obj\Debug\net8.0\myModels.GeneratedMSBuildEditorConfig.editorconfig
+H:\webApiProject\myModels\obj\Debug\net8.0\myModels.AssemblyInfoInputs.cache
+H:\webApiProject\myModels\obj\Debug\net8.0\myModels.AssemblyInfo.cs
+H:\webApiProject\myModels\obj\Debug\net8.0\myModels.csproj.CoreCompileInputs.cache
+H:\webApiProject\myModels\obj\Debug\net8.0\myModels.dll
+H:\webApiProject\myModels\obj\Debug\net8.0\refint\myModels.dll
+H:\webApiProject\myModels\obj\Debug\net8.0\myModels.pdb
+H:\webApiProject\myModels\obj\Debug\net8.0\ref\myModels.dll
