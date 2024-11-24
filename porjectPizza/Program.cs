@@ -1,3 +1,4 @@
+using myModels;
 using myModels.Interfaces;
 using myServices;
 
@@ -14,6 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<Ipizza, pizzaService>();
 builder.Services.AddTransient<Iorder,orderService>();
 builder.Services.AddScoped<Iworker,workerService>();
+//builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>('ניווט מיקום הקובץ'));
 var app = builder.Build();
 
 // Configure the HTTP requestd pipeline.

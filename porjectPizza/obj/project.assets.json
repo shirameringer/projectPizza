@@ -469,11 +469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\webApiProject\\porjectPizza\\h_w2.csproj",
+      "projectUniqueName": "H:\\webApi\\lesson 5\\projectPizza\\porjectPizza\\h_w2.csproj",
       "projectName": "h_w2",
-      "projectPath": "H:\\webApiProject\\porjectPizza\\h_w2.csproj",
+      "projectPath": "H:\\webApi\\lesson 5\\projectPizza\\porjectPizza\\h_w2.csproj",
       "packagesPath": "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\",
-      "outputPath": "H:\\webApiProject\\porjectPizza\\obj\\",
+      "outputPath": "H:\\webApi\\lesson 5\\projectPizza\\porjectPizza\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -495,11 +495,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "H:\\webApiProject\\myModels\\myModels.csproj": {
-              "projectPath": "H:\\webApiProject\\myModels\\myModels.csproj"
+            "H:\\webApi\\lesson 5\\projectPizza\\myModels\\myModels.csproj": {
+              "projectPath": "H:\\webApi\\lesson 5\\projectPizza\\myModels\\myModels.csproj"
             },
-            "H:\\webApiProject\\myServices\\myServices.csproj": {
-              "projectPath": "H:\\webApiProject\\myServices\\myServices.csproj"
+            "H:\\webApi\\lesson 5\\projectPizza\\myServices\\myServices.csproj": {
+              "projectPath": "H:\\webApi\\lesson 5\\projectPizza\\myServices\\myServices.csproj"
             }
           }
         }

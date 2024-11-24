@@ -19,6 +19,7 @@ namespace myModels;
         this.pizzaName=pizzaName;
         this.price=price;
        }
+       
     }
     
 

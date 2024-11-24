@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IehITHfvLYBINQY0++NQYwipO6LCFvXgI7HTY8bPUNc+gSqJcGH1qOQOgEtACKL9E2g4cq+uVoel6/XLXhK3HQ==",
+  "dgSpecHash": "MldrFdsNqBUl3QNLsHRt4G4rMBLc0oAmSYci8b4rWybECejhwh2S9E1k6WxlrxooVfbBvqvb0C+tAOM1AEEXJA==",
   "success": true,
-  "projectFilePath": "H:\\webApiProject\\myModels\\myModels.csproj",
+  "projectFilePath": "H:\\webApi\\lesson 5\\projectPizza\\myModels\\myModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

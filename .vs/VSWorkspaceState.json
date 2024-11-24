@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\myServices",
-    "\\porjectPizza"
+    "\\porjectPizza",
+    "\\porjectPizza\\Controllers"
   ],
-  "SelectedNode": "\\myServices\\pizzaservice.cs",
+  "SelectedNode": "\\porjectPizza\\Controllers\\PizzaControllers.cs",
   "PreviewInSolutionExplorer": false
 }

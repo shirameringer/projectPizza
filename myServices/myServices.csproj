@@ -4,6 +4,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\myModels\myModels.csproj" />
+    <ProjectReference Include="..\fileServices\fileServices.csproj" />
   </ItemGroup>
 
   

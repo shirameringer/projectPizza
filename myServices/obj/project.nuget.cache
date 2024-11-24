@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XhIJYb/AV3P4opJ8mXDUro8DpJU7uxoFvfekM7IdEav1FdyCnY9NiF9meLpPPNlc5TzZE6o9/VLrjrDs3YAp9Q==",
+  "dgSpecHash": "VgUnRDLrfeymgGcbQMLalIhXxBycS1UX2nSbPadS4lSEub5fV85RLfIuRJ7tqcMhaUddj+RpNajUFwzUc0rhSQ==",
   "success": true,
-  "projectFilePath": "H:\\webApiProject\\myServices\\myServices.csproj",
+  "projectFilePath": "H:\\webApi\\lesson 5\\projectPizza\\myServices\\myServices.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -6,12 +6,19 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using myModels.Interfaces;
+//using fileServices.Interface;
+//using fileServices;
+using myModels;
 namespace porjectPizza.Controllers;
+
 public class PizzaController : Basecontrollers
 {
      Ipizza _pizza;
-       public PizzaController(Ipizza pizza)
-        {
+     //private readonly IFileService<Pizza> _IFileService;
+     
+       public PizzaController(Ipizza pizza,IFileService IFileService)
+        { 
+             _IFileService=IFileService;
             _pizza = pizza;
         }
     
@@ -71,6 +78,18 @@ public IActionResult AddItem(int id,bool ifgloten,string pizzaName,double price)
 _pizza.AddItem(id,ifgloten,pizzaName,price);
 return Ok("add item");
 }
+// [HttpGet]
+// [Route("[action]")]
+// public List<Pizza> GetListOfPizza()
+//     {
+//       return  _IFileService.Read();
+//     } 
+// [HttpPost]
+// [Route("[action]/{pizza}")]
+//     public void PostPizza(Pizza pizza)
+//     {
+//        _IFileService.Write(pizza);
+//     }
 
 }
 
