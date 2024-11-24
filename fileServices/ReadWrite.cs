@@ -1,4 +1,7 @@
-﻿namespace fileServices;
+﻿using fileScdervices.Interface;
+using Newtonsoft.Json;
+using System.IO;
+namespace fileServices;
 
 public class ReadWrite<T>:IfileServices<T>
 {
@@ -21,8 +24,8 @@ private readonly string _path;
     {
         var list = Read();
         list.Add(obj);
-        File.WriteAllText(_path, JsonConvert.SerializeObject(list));
+        File.WriteAllText(_path,JsonConvert.SerializeObject(list));
     }
 
-
 }
+

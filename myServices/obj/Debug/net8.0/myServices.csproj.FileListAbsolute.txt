@@ -13,3 +13,21 @@ H:\webApiProject\myServices\obj\Debug\net8.0\myServices.dll
 H:\webApiProject\myServices\obj\Debug\net8.0\refint\myServices.dll
 H:\webApiProject\myServices\obj\Debug\net8.0\myServices.pdb
 H:\webApiProject\myServices\obj\Debug\net8.0\ref\myServices.dll
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.dll
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\refint\myServices.dll
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.pdb
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\bin\Debug\net8.0\myServices.deps.json
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\bin\Debug\net8.0\myServices.dll
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\bin\Debug\net8.0\myServices.pdb
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\bin\Debug\net8.0\fileServices.dll
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\bin\Debug\net8.0\myModels.dll
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\bin\Debug\net8.0\myModels.pdb
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\bin\Debug\net8.0\fileServices.pdb
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfo.cs
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.sourcelink.json
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.Up2Date
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\ref\myServices.dll

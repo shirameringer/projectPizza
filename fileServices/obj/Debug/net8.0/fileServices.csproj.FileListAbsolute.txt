@@ -1,0 +1,13 @@
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\fileServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfo.cs
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\fileServices.sourcelink.json
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\bin\Debug\net8.0\fileServices.deps.json
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\bin\Debug\net8.0\fileServices.dll
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\bin\Debug\net8.0\fileServices.pdb
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\fileServices.dll
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\refint\fileServices.dll
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\fileServices.pdb
+C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\ref\fileServices.dll

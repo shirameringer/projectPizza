@@ -1,0 +1,8 @@
+[
+  {
+    "id": 0,
+    "ifGloten": true,
+    "pizzaName": "string",
+    "price": 0
+  }
+]

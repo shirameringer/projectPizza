@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MldrFdsNqBUl3QNLsHRt4G4rMBLc0oAmSYci8b4rWybECejhwh2S9E1k6WxlrxooVfbBvqvb0C+tAOM1AEEXJA==",
+  "dgSpecHash": "9HW+ON+Xvh8=",
   "success": true,
-  "projectFilePath": "H:\\webApi\\lesson 5\\projectPizza\\myModels\\myModels.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\USER\\Documents\\webapi פרויקט\\projectPizza\\myModels\\myModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

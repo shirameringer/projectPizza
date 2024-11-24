@@ -1,7 +1,8 @@
 using myModels;
 using myModels.Interfaces;
 using myServices;
-
+using fileScdervices.Interface;
+using fileServices;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<Ipizza, pizzaService>();
 builder.Services.AddTransient<Iorder,orderService>();
 builder.Services.AddScoped<Iworker,workerService>();
-//builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>('ניווט מיקום הקובץ'));
+builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>("PizzaCollection.txt"));
 var app = builder.Build();
 
 // Configure the HTTP requestd pipeline.
