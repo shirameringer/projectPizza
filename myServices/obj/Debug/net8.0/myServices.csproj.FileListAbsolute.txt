@@ -31,3 +31,21 @@ C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\ne
 C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.sourcelink.json
 C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.Up2Date
 C:\Users\USER\Documents\webapi פרויקט\projectPizza\myServices\obj\Debug\net8.0\ref\myServices.dll
+H:\lesson6\projectPizza\myServices\bin\Debug\net8.0\myServices.deps.json
+H:\lesson6\projectPizza\myServices\bin\Debug\net8.0\myServices.dll
+H:\lesson6\projectPizza\myServices\bin\Debug\net8.0\myServices.pdb
+H:\lesson6\projectPizza\myServices\bin\Debug\net8.0\fileServices.dll
+H:\lesson6\projectPizza\myServices\bin\Debug\net8.0\myModels.dll
+H:\lesson6\projectPizza\myServices\bin\Debug\net8.0\myModels.pdb
+H:\lesson6\projectPizza\myServices\bin\Debug\net8.0\fileServices.pdb
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.AssemblyReference.cache
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.GeneratedMSBuildEditorConfig.editorconfig
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfoInputs.cache
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfo.cs
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.CoreCompileInputs.cache
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.sourcelink.json
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.CopyComplete
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.dll
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\refint\myServices.dll
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.pdb
+H:\lesson6\projectPizza\myServices\obj\Debug\net8.0\ref\myServices.dll

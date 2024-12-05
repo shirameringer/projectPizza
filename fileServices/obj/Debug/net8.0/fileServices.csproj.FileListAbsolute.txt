@@ -11,3 +11,16 @@ C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\
 C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\refint\fileServices.dll
 C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\fileServices.pdb
 C:\Users\USER\Documents\webapi פרויקט\projectPizza\fileServices\obj\Debug\net8.0\ref\fileServices.dll
+H:\lesson6\projectPizza\fileServices\bin\Debug\net8.0\fileServices.deps.json
+H:\lesson6\projectPizza\fileServices\bin\Debug\net8.0\fileServices.dll
+H:\lesson6\projectPizza\fileServices\bin\Debug\net8.0\fileServices.pdb
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.AssemblyReference.cache
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.GeneratedMSBuildEditorConfig.editorconfig
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfoInputs.cache
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfo.cs
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.CoreCompileInputs.cache
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.sourcelink.json
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.dll
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\refint\fileServices.dll
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.pdb
+H:\lesson6\projectPizza\fileServices\obj\Debug\net8.0\ref\fileServices.dll

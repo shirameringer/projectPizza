@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "18w7ceC2nc+W8F0U4juebU/5cn2ofSEffsraCE87Ips=",
+  "Hash": "SdzJtaJuhUd3pwB1S4PNffcMvW4/TU+7W/TT0AFr3rI=",
   "Source": "h_w2",
   "BasePath": "_content/h_w2",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "h_w2\\wwwroot",
+      "Source": "h_w2",
+      "ContentRoot": "H:\\lesson6\\projectPizza\\porjectPizza\\wwwroot\\",
+      "BasePath": "_content/h_w2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "H:\\lesson6\\projectPizza\\porjectPizza\\wwwroot\\index.html",
+      "SourceId": "h_w2",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\lesson6\\projectPizza\\porjectPizza\\wwwroot\\",
+      "BasePath": "_content/h_w2",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "H:\\lesson6\\projectPizza\\porjectPizza\\wwwroot\\js\\pizza.js",
+      "SourceId": "h_w2",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\lesson6\\projectPizza\\porjectPizza\\wwwroot\\",
+      "BasePath": "_content/h_w2",
+      "RelativePath": "js/pizza.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pizza.js"
+    }
+  ]
 }

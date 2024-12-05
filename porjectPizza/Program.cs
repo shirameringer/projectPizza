@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<Ipizza, pizzaService>();
 builder.Services.AddTransient<Iorder,orderService>();
 builder.Services.AddScoped<Iworker,workerService>();
-builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>(@"C:\Users\USER\Documents\webapi פרויקט\projectPizza\PizzaCollection.Json"));
+builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>(@"H:\lesson6\projectPizza\PizzaCollection.Json"));
 var app = builder.Build();
 
 // Configure the HTTP requestd pipeline.

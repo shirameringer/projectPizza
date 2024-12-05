@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RSTZSH9UjMU=",
+  "dgSpecHash": "CxKwfhakBIiq6UwePW27j+2dqaqNNw+wb7uDS9yg++wdGFKI+FjVjuor0vPzZ4wTjyAkX29fi4mTZFryHI6LHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\webapi פרויקט\\projectPizza\\fileServices\\fileServices.csproj",
+  "projectFilePath": "H:\\lesson6\\projectPizza\\fileServices\\fileServices.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
