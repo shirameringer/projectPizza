@@ -85,10 +85,10 @@ public List<Pizza> GetListOfPizza()
      return  _IFileService.Read();
   } 
  [HttpPost]
- [Route("[action]/{pizza}")]
-    public void PostPizza(Pizza pizza)
+ [Route("[action]")]
+    public void PostPizza([FromBody] Pizza p)
     {
-       _IFileService.Write(pizza);
+       _IFileService.Write(p);
     }
 
 }

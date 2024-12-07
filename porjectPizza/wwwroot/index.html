@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="js/pizza.js"></script>
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="styles.css"> <!-- קישור לקובץ ה-CSS -->
+    <script src="js/pizza.js" defer></script> <!-- חשוב ש-JavaScript ייטען אחרי ה-HTML -->
 </head>
 <body>
-    <input id="id" type="text">
-    <input id="if_gloten" type="text">
-    <input id="name" type="text">
-    <input type="button" value="send" onclick="addPizza()">
+    <!-- כפתור לפתיחת שדות הקלט -->
+    <button id="addPizzaButton">Add Pizza</button>
 
+    <!-- אזור שדות הקלט שיופיע אחרי לחיצה על כפתור "Add Pizza" -->
+    <div id="pizzaFormContainer" class="hidden">
+        <div class="form-container">
+            <h2>Pizza Order</h2>
+            <label for="id">ID</label>
+            <input id="id" type="text" placeholder="Enter Pizza ID" />
+            <label for="if_gloten">Gluten-Free</label>
+            <input id="if_gloten" type="text" placeholder="true/false" />
+            <label for="name">Pizza Name</label>
+            <input id="name" type="text" placeholder="Enter Pizza Name" />
+            <label for="price">Price</label>
+            <input id="price" type="text" placeholder="Enter Price" />
+            <button onclick="addPizza()" id="submitPizzaButton">Submit Pizza</button> <!-- כפתור לשליחה -->
+        </div>
+    </div>
 </body>
 </html>

@@ -1,12 +1,16 @@
 {
   "Files": [
     {
-      "Id": "H:\\lesson6\\projectPizza\\porjectPizza\\wwwroot\\index.html",
+      "Id": "C:\\Users\\USER\\Documents\\web_lesson6\\projectPizza\\porjectPizza\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "H:\\lesson6\\projectPizza\\porjectPizza\\wwwroot\\js\\pizza.js",
+      "Id": "C:\\Users\\USER\\Documents\\web_lesson6\\projectPizza\\porjectPizza\\wwwroot\\js\\pizza.js",
       "PackagePath": "staticwebassets\\js\\pizza.js"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Documents\\web_lesson6\\projectPizza\\porjectPizza\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.h_w2.props",
