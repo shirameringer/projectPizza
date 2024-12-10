@@ -67,3 +67,39 @@ C:\Users\USER\Documents\web_lesson6\projectPizza\myServices\obj\Debug\net8.0\myS
 C:\Users\USER\Documents\web_lesson6\projectPizza\myServices\obj\Debug\net8.0\refint\myServices.dll
 C:\Users\USER\Documents\web_lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.pdb
 C:\Users\USER\Documents\web_lesson6\projectPizza\myServices\obj\Debug\net8.0\ref\myServices.dll
+H:\webApi\lesson6\projectPizza\myServices\bin\Debug\net8.0\myServices.deps.json
+H:\webApi\lesson6\projectPizza\myServices\bin\Debug\net8.0\myServices.dll
+H:\webApi\lesson6\projectPizza\myServices\bin\Debug\net8.0\myServices.pdb
+H:\webApi\lesson6\projectPizza\myServices\bin\Debug\net8.0\fileServices.dll
+H:\webApi\lesson6\projectPizza\myServices\bin\Debug\net8.0\myModels.dll
+H:\webApi\lesson6\projectPizza\myServices\bin\Debug\net8.0\myModels.pdb
+H:\webApi\lesson6\projectPizza\myServices\bin\Debug\net8.0\fileServices.pdb
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.AssemblyReference.cache
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.GeneratedMSBuildEditorConfig.editorconfig
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfoInputs.cache
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfo.cs
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.CoreCompileInputs.cache
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.sourcelink.json
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.CopyComplete
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.dll
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\refint\myServices.dll
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.pdb
+H:\webApi\lesson6\projectPizza\myServices\obj\Debug\net8.0\ref\myServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\bin\Debug\net8.0\myServices.deps.json
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\bin\Debug\net8.0\myServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\bin\Debug\net8.0\myServices.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\bin\Debug\net8.0\fileServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\bin\Debug\net8.0\myModels.dll
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\bin\Debug\net8.0\myModels.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\bin\Debug\net8.0\fileServices.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.AssemblyReference.cache
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.GeneratedMSBuildEditorConfig.editorconfig
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfoInputs.cache
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfo.cs
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.CoreCompileInputs.cache
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.sourcelink.json
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.CopyComplete
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\refint\myServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\myServices.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\myServices\obj\Debug\net8.0\ref\myServices.dll

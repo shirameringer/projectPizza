@@ -3,6 +3,7 @@ using myModels.Interfaces;
 using myServices;
 using fileScdervices.Interface;
 using fileServices;
+using porjectPizza.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,8 @@ builder.Services.AddTransient<Iorder, orderService>();
 builder.Services.AddScoped<Iworker, workerService>();
 
 // הוספת שירות קבצים עם נתיב הכתיבה
-builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>(@"C:\Users\USER\Documents\web_lesson6\projectPizza\PizzaCollection.Json"));
+builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>(@"H:\webApi\shira meringer-lesson6\projectPizza\PizzaCollection.Json"));
+builder.Services.AddSingleton<IfileServices<string>>(new ReadWrite<string>(@"H:\webApi\shira meringer-lesson6\projectPizza\ActuonLog.txt"));
 
 // הגדרת CORS - מאפשר בקשות מכל מקור
 builder.Services.AddCors(options =>
@@ -36,7 +38,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCustom();
 // הפעלת CORS
 app.UseCors("AllowAll");  // כאן חשוב להפעיל את ה-CORS אחרי הגדרת הפוליסה
 

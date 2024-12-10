@@ -255,3 +255,85 @@ C:\Users\USER\Documents\web_lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\r
 C:\Users\USER\Documents\web_lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.pdb
 C:\Users\USER\Documents\web_lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.genruntimeconfig.cache
 C:\Users\USER\Documents\web_lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\ref\h_w2.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\appsettings.Development.json
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\appsettings.json
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.staticwebassets.runtime.json
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.exe
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.deps.json
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.runtimeconfig.json
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.pdb
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Microsoft.OpenApi.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Newtonsoft.Json.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\fileServices.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\myModels.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\myServices.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\myServices.pdb
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\myModels.pdb
+H:\webApi\lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\fileServices.pdb
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.csproj.AssemblyReference.cache
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.GeneratedMSBuildEditorConfig.editorconfig
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.AssemblyInfoInputs.cache
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.AssemblyInfo.cs
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.csproj.CoreCompileInputs.cache
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.MvcApplicationPartsAssemblyInfo.cs
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.MvcApplicationPartsAssemblyInfo.cache
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.sourcelink.json
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets.build.json
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets.development.json
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets\msbuild.h_w2.Microsoft.AspNetCore.StaticWebAssets.props
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets\msbuild.build.h_w2.props
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.h_w2.props
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.h_w2.props
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets.pack.json
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\scopedcss\bundle\h_w2.styles.css
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.csproj.CopyComplete
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\refint\h_w2.dll
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.pdb
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.genruntimeconfig.cache
+H:\webApi\lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\ref\h_w2.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\appsettings.Development.json
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\appsettings.json
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.staticwebassets.runtime.json
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.exe
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.deps.json
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.runtimeconfig.json
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\h_w2.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Microsoft.OpenApi.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Newtonsoft.Json.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\fileServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\myModels.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\myServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\myServices.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\myModels.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\bin\Debug\net8.0\fileServices.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.csproj.AssemblyReference.cache
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.GeneratedMSBuildEditorConfig.editorconfig
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.AssemblyInfoInputs.cache
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.AssemblyInfo.cs
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.csproj.CoreCompileInputs.cache
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.MvcApplicationPartsAssemblyInfo.cs
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.MvcApplicationPartsAssemblyInfo.cache
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.sourcelink.json
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets.build.json
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets.development.json
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets\msbuild.h_w2.Microsoft.AspNetCore.StaticWebAssets.props
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets\msbuild.build.h_w2.props
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.h_w2.props
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.h_w2.props
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\staticwebassets.pack.json
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\scopedcss\bundle\h_w2.styles.css
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.csproj.CopyComplete
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\refint\h_w2.dll
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\h_w2.genruntimeconfig.cache
+H:\webApi\shira meringer-lesson6\projectPizza\porjectPizza\obj\Debug\net8.0\ref\h_w2.dll

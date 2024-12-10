@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aI7JfwhHHzI=",
+  "dgSpecHash": "u29bW2oNz3OhvGyRywD+AVoHJ8esQQgxmvdKW69cSVTeFs0h+aZX4waWeVIhfR/pZUYtg7pslxK9nIeNafZBDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\web_lesson6\\projectPizza\\myServices\\myServices.csproj",
+  "projectFilePath": "H:\\webApi\\shira meringer-lesson6\\projectPizza\\myServices\\myServices.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

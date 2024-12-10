@@ -37,3 +37,29 @@ C:\Users\USER\Documents\web_lesson6\projectPizza\fileServices\obj\Debug\net8.0\f
 C:\Users\USER\Documents\web_lesson6\projectPizza\fileServices\obj\Debug\net8.0\refint\fileServices.dll
 C:\Users\USER\Documents\web_lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.pdb
 C:\Users\USER\Documents\web_lesson6\projectPizza\fileServices\obj\Debug\net8.0\ref\fileServices.dll
+H:\webApi\lesson6\projectPizza\fileServices\bin\Debug\net8.0\fileServices.deps.json
+H:\webApi\lesson6\projectPizza\fileServices\bin\Debug\net8.0\fileServices.dll
+H:\webApi\lesson6\projectPizza\fileServices\bin\Debug\net8.0\fileServices.pdb
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.AssemblyReference.cache
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.GeneratedMSBuildEditorConfig.editorconfig
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfoInputs.cache
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfo.cs
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.CoreCompileInputs.cache
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.sourcelink.json
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.dll
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\refint\fileServices.dll
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.pdb
+H:\webApi\lesson6\projectPizza\fileServices\obj\Debug\net8.0\ref\fileServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\bin\Debug\net8.0\fileServices.deps.json
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\bin\Debug\net8.0\fileServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\bin\Debug\net8.0\fileServices.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.AssemblyReference.cache
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.GeneratedMSBuildEditorConfig.editorconfig
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfoInputs.cache
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfo.cs
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.CoreCompileInputs.cache
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.sourcelink.json
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\refint\fileServices.dll
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.pdb
+H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\ref\fileServices.dll
