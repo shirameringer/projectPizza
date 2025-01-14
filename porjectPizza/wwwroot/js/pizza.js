@@ -73,3 +73,31 @@ function showWorkerForm() {
     var workerForm = document.getElementById('workerForm');
     workerForm.style.display = workerForm.style.display === 'none' ? 'block' : 'none';
 }
+function login(event) {
+    event.preventDefault(); // Prevent the form from submitting naturally
+
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    const requestOptions = {
+        method: "POST",
+        redirect: "follow"
+      };
+
+    fetch(baseURL + `/Login/Login?name=${username}&password=${password}`, requestOptions)
+        .then(response => {
+            if (response.ok) {
+                return response.text(); // Assuming the response contains JSON
+            }
+            throw new Error('Login failed');
+        })
+        .then(data => {
+            dinami_token = data.token; // Assuming the token is in the response
+            document.querySelector('.login-container').style.display = 'none'; // Hide login
+            document.getElementById('managementContainer').style.display = 'block'; // Show management
+        })
+        .catch(error => console.log('error', error));
+}

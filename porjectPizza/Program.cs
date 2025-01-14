@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 // הוספת שירותים לאפליקציה
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// builder.Services.AddSwaggerGen();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "FBI", Version = "v1" });
@@ -88,11 +88,24 @@ if (app.Environment.IsDevelopment())
 // app.UseCors("AllowAll");  // כאן חשוב להפעיל את ה-CORS אחרי הגדרת הפוליסה
 
 // שאר ההגדרות
+app.UseStaticFiles();  // מאפשר לשרת להגיש קבצים מתוך wwwroot
+
+// הפניות ל-HTTPS
 app.UseHttpsRedirection();
+
+// הפעלת אימות (אם יש צורך באימות JWT או אחר)
 app.UseAuthentication();
+
+// ניתוב בקשות
 app.UseRouting();
+
+// הפעלת הרשאות
 app.UseAuthorization();
 
+// מיפוי controllers
 app.MapControllers();
+
+// הגדרת fallback לדף index.html
+app.MapFallbackToFile("index.html");
 
 app.Run();

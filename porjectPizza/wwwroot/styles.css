@@ -1,4 +1,3 @@
-/* כלליות */
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +14,7 @@ body {
     margin: 0;
 }
 
-.container {
+.container, .login-container {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
@@ -25,12 +24,12 @@ body {
     text-align: center;
 }
 
-h1 {
+h1, h2 {
     margin-bottom: 20px;
     color: #333;
 }
 
-/* כפתורים */
+/* Buttons */
 button {
     background-color: #28a745;
     color: white;
@@ -60,7 +59,7 @@ button[type="button"]:hover {
     background-color: #0056b3;
 }
 
-/* טופס */
+/* Form Styles */
 .form-container {
     background-color: #f9f9f9;
     padding: 20px;
@@ -88,7 +87,7 @@ input:focus, select:focus {
     border-color: #3498db;
 }
 
-/* עיצוב הטפסים להוספת פיצה ועובד */
+/* Form for Pizza and Worker */
 #pizzaForm, #workerForm {
     display: none;
     margin-top: 20px;
@@ -116,4 +115,13 @@ input:focus, select:focus {
 
 #pizzaForm button:hover, #workerForm button:hover {
     background-color: #2980b9;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
 }
