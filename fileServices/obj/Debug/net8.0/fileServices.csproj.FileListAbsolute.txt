@@ -63,3 +63,16 @@ H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\file
 H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\refint\fileServices.dll
 H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\fileServices.pdb
 H:\webApi\shira meringer-lesson6\projectPizza\fileServices\obj\Debug\net8.0\ref\fileServices.dll
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\bin\Debug\net8.0\fileServices.deps.json
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\bin\Debug\net8.0\fileServices.dll
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\bin\Debug\net8.0\fileServices.pdb
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\fileServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\fileServices.AssemblyInfo.cs
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\fileServices.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\fileServices.sourcelink.json
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\fileServices.dll
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\refint\fileServices.dll
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\fileServices.pdb
+C:\Users\USER\Desktop\פרויקט web\projectPizza\fileServices\obj\Debug\net8.0\ref\fileServices.dll

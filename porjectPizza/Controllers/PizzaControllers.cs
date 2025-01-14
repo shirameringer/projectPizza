@@ -9,6 +9,7 @@ using myModels.Interfaces;
 using fileScdervices.Interface;
 using fileServices;
 using myModels;
+using Microsoft.AspNetCore.Authorization;
 namespace porjectPizza.Controllers;
 
 public class PizzaController : Basecontrollers
@@ -26,6 +27,7 @@ public class PizzaController : Basecontrollers
 
 [Route("[action]/{id}")]
 [HttpGet] 
+
  public IActionResult GetPizzaName(int id){
    string s1;
    s1=_pizza.GetPizzaName(id);
@@ -50,7 +52,8 @@ return NotFound();
 
 
 [Route("[action]/{id}/{newid}")]
-[HttpPut] 
+[HttpPut]
+[Authorize(Policy = "superWorker")] 
 public IActionResult UpdateId(int id,int newid){
   bool flag;
    flag=_pizza.UpdateId(id,newid);
@@ -62,6 +65,7 @@ public IActionResult UpdateId(int id,int newid){
 
 [Route("[action]/{name}")]
 [HttpDelete] 
+[Authorize(Policy = "superWorker")]
 public IActionResult DeleletItem(string name){
   bool flag;
    flag=_pizza.DeleletItem(name);
@@ -73,6 +77,7 @@ public IActionResult DeleletItem(string name){
 
 [Route("[action]/{id}/{ifgloten}/{pizzaName}")]
 [HttpPost] 
+[Authorize(Policy = "superWorker")]
 public IActionResult AddItem(int id,bool ifgloten,string pizzaName,double price){
 
 _pizza.AddItem(id,ifgloten,pizzaName,price);
@@ -86,6 +91,7 @@ public List<Pizza> GetListOfPizza()
   } 
  [HttpPost]
  [Route("[action]")]
+ [Authorize(Policy = "superWorker")]
     public void PostPizza([FromBody] Pizza p)
     {
        _IFileService.Write(p);

@@ -4,6 +4,8 @@ using myServices;
 using fileScdervices.Interface;
 using fileServices;
 using porjectPizza.Middleware;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Login.tokenService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,13 +13,29 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services
+              .AddAuthentication(options =>
+              {
+                  options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+              })
+              .AddJwtBearer(cfg =>
+              {
+                  cfg.RequireHttpsMetadata = false;
+                  cfg.TokenValidationParameters =TokenService.GetTokenValidationParameters();
+              });
+builder.Services.AddAuthorization(cfg =>
+        {
+            cfg.AddPolicy("Admin", policy => policy.RequireClaim("role", "Admin"));
+             cfg.AddPolicy("superWorker", policy => policy.RequireClaim("role", "superWorker"));
+            
+        });              
 builder.Services.AddSingleton<Ipizza, pizzaService>();
 builder.Services.AddTransient<Iorder, orderService>();
 builder.Services.AddScoped<Iworker, workerService>();
 
 // הוספת שירות קבצים עם נתיב הכתיבה
-builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>(@"H:\webApi\shira meringer-lesson6\projectPizza\PizzaCollection.Json"));
-builder.Services.AddSingleton<IfileServices<string>>(new ReadWrite<string>(@"H:\webApi\shira meringer-lesson6\projectPizza\ActuonLog.txt"));
+// builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>(@"H:\webApi\shira meringer-lesson6\projectPizza\PizzaCollection.Json"));
+// builder.Services.AddSingleton<IfileServices<string>>(new ReadWrite<string>(@"H:\webApi\shira meringer-lesson6\projectPizza\ActuonLog.txt"));
 
 // הגדרת CORS - מאפשר בקשות מכל מקור
 builder.Services.AddCors(options =>

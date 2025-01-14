@@ -9,5 +9,7 @@ namespace myModels.Interfaces;
     public interface Iworker
     {
         public string getWorkerById(int id);
-        public void postworker(int id,string fname,string lNmae);
+        public void postworker(int id,string fname,string lNmae,string password,string role);
+         public void writeWorker( Worker w);
+          public List<Worker> GetListOfWorker();
     }
