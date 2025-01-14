@@ -121,3 +121,21 @@ C:\Users\USER\Desktop\פרויקט web\projectPizza\myServices\bin\Debug\net8.0\
 C:\Users\USER\Desktop\פרויקט web\projectPizza\myServices\bin\Debug\net8.0\fileServices.pdb
 C:\Users\USER\Desktop\פרויקט web\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.Up2Date
 C:\Users\USER\Desktop\פרויקט web\projectPizza\myServices\obj\Debug\net8.0\ref\myServices.dll
+H:\web lesson 7\projectPizza\myServices\bin\Debug\net8.0\myServices.deps.json
+H:\web lesson 7\projectPizza\myServices\bin\Debug\net8.0\myServices.dll
+H:\web lesson 7\projectPizza\myServices\bin\Debug\net8.0\myServices.pdb
+H:\web lesson 7\projectPizza\myServices\bin\Debug\net8.0\fileServices.dll
+H:\web lesson 7\projectPizza\myServices\bin\Debug\net8.0\myModels.dll
+H:\web lesson 7\projectPizza\myServices\bin\Debug\net8.0\myModels.pdb
+H:\web lesson 7\projectPizza\myServices\bin\Debug\net8.0\fileServices.pdb
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.AssemblyReference.cache
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\myServices.GeneratedMSBuildEditorConfig.editorconfig
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfoInputs.cache
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\myServices.AssemblyInfo.cs
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.CoreCompileInputs.cache
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\myServices.sourcelink.json
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\myServices.csproj.CopyComplete
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\myServices.dll
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\refint\myServices.dll
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\myServices.pdb
+H:\web lesson 7\projectPizza\myServices\obj\Debug\net8.0\ref\myServices.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hW70aZxiWa0v6Jrl8pimrN68zeBDuFWSQKhbL4EoDhM=",
+  "Hash": "TUsB/9aKGHvO1US84q6LE6AyOzNoPmBAXdFm2lhJd7A=",
   "Source": "h_w2",
   "BasePath": "_content/h_w2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "h_w2\\wwwroot",
       "Source": "h_w2",
-      "ContentRoot": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\porjectPizza\\wwwroot\\",
+      "ContentRoot": "H:\\web lesson 7\\projectPizza\\porjectPizza\\wwwroot\\",
       "BasePath": "_content/h_w2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\porjectPizza\\wwwroot\\index.html",
+      "Identity": "H:\\web lesson 7\\projectPizza\\porjectPizza\\wwwroot\\index.html",
       "SourceId": "h_w2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\porjectPizza\\wwwroot\\",
+      "ContentRoot": "H:\\web lesson 7\\projectPizza\\porjectPizza\\wwwroot\\",
       "BasePath": "_content/h_w2",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\porjectPizza\\wwwroot\\js\\pizza.js",
+      "Identity": "H:\\web lesson 7\\projectPizza\\porjectPizza\\wwwroot\\js\\pizza.js",
       "SourceId": "h_w2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\porjectPizza\\wwwroot\\",
+      "ContentRoot": "H:\\web lesson 7\\projectPizza\\porjectPizza\\wwwroot\\",
       "BasePath": "_content/h_w2",
       "RelativePath": "js/pizza.js",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\js\\pizza.js"
     },
     {
-      "Identity": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\porjectPizza\\wwwroot\\styles.css",
+      "Identity": "H:\\web lesson 7\\projectPizza\\porjectPizza\\wwwroot\\styles.css",
       "SourceId": "h_w2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\porjectPizza\\wwwroot\\",
+      "ContentRoot": "H:\\web lesson 7\\projectPizza\\porjectPizza\\wwwroot\\",
       "BasePath": "_content/h_w2",
       "RelativePath": "styles.css",
       "AssetKind": "All",

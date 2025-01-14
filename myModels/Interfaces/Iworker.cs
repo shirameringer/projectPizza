@@ -10,6 +10,6 @@ namespace myModels.Interfaces;
     {
         public string getWorkerById(int id);
         public void postworker(int id,string fname,string lNmae,string password,string role);
-         public void writeWorker( Worker w);
-          public List<Worker> GetListOfWorker();
+        public void writeWorker(Worker w);
+        public List<Worker> readWorker();
     }

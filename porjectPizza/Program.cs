@@ -6,6 +6,9 @@ using fileServices;
 using porjectPizza.Middleware;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Login.tokenService;
+using Login.Interface;
+using Login.service;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +16,27 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "FBI", Version = "v1" });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please enter JWT with Bearer into field",
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+                { new OpenApiSecurityScheme
+                        {
+                         Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer"}
+                        },
+                    new string[] {}
+                }
+        });
+});
+
 builder.Services
               .AddAuthentication(options =>
               {
@@ -21,32 +45,35 @@ builder.Services
               .AddJwtBearer(cfg =>
               {
                   cfg.RequireHttpsMetadata = false;
-                  cfg.TokenValidationParameters =TokenService.GetTokenValidationParameters();
+                  cfg.TokenValidationParameters = TokenService.GetTokenValidationParameters();
               });
 builder.Services.AddAuthorization(cfg =>
         {
-            cfg.AddPolicy("Admin", policy => policy.RequireClaim("role", "Admin"));
-             cfg.AddPolicy("superWorker", policy => policy.RequireClaim("role", "superWorker"));
-            
-        });              
+
+            cfg.AddPolicy("superWorker", policy => policy.RequireClaim("role", "superWorker"));
+            cfg.AddPolicy("worker", policy => policy.RequireClaim("role", "worker"));
+        });
 builder.Services.AddSingleton<Ipizza, pizzaService>();
 builder.Services.AddTransient<Iorder, orderService>();
 builder.Services.AddScoped<Iworker, workerService>();
+builder.Services.AddScoped<Ilogin, LoginService>();
+builder.Services.AddSingleton<IfileServices<Worker>>(new ReadWrite<Worker>(@"..\workerList.Json"));
+builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>(@"..\PizzaCollection.Json"));
+builder.Services.AddSingleton<IfileServices<string>>(new ReadWrite<string>(@"..\ActuonLog.txt"));
 
-// הוספת שירות קבצים עם נתיב הכתיבה
-// builder.Services.AddSingleton<IfileServices<Pizza>>(new ReadWrite<Pizza>(@"H:\webApi\shira meringer-lesson6\projectPizza\PizzaCollection.Json"));
-// builder.Services.AddSingleton<IfileServices<string>>(new ReadWrite<string>(@"H:\webApi\shira meringer-lesson6\projectPizza\ActuonLog.txt"));
+
+
 
 // הגדרת CORS - מאפשר בקשות מכל מקור
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAll", policy =>
-    {
-        policy.AllowAnyOrigin()        // מאפשר בקשות מכל מקור
-              .AllowAnyHeader()        // מאפשר כל כותרת (header)
-              .AllowAnyMethod();       // מאפשר כל שיטה (method)
-    });
-});
+// builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy("AllowAll", policy =>
+//     {
+//         policy.AllowAnyOrigin()        // מאפשר בקשות מכל מקור
+//               .AllowAnyHeader()        // מאפשר כל כותרת (header)
+//               .AllowAnyMethod();       // מאפשר כל שיטה (method)
+//     });
+// });
 
 var app = builder.Build();
 
@@ -56,18 +83,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCustom();
+// app.UseCustom();
 // הפעלת CORS
-app.UseCors("AllowAll");  // כאן חשוב להפעיל את ה-CORS אחרי הגדרת הפוליסה
+// app.UseCors("AllowAll");  // כאן חשוב להפעיל את ה-CORS אחרי הגדרת הפוליסה
 
 // שאר ההגדרות
 app.UseHttpsRedirection();
-app.UseDefaultFiles();
-app.UseStaticFiles();
+app.UseAuthentication();
+app.UseRouting();
 app.UseAuthorization();
 
-// מיפוי ה-Controllers
 app.MapControllers();
 
-// הרצת האפליקציה
 app.Run();

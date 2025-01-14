@@ -34,14 +34,13 @@ namespace pizzaProject.Controllers
 
             if (_ilogin.IsWorkerValid(name, password)==null)
             {
-                return Unauthorized();
+                return Unauthorized("not found");
             }
             Worker worker;
             worker=_ilogin.IsWorkerValid(name, password);
             var claims = new List<Claim>
             {
-                new Claim("role",worker.role),
-                new Claim("role",worker.firstName)
+                new Claim("role",worker.role)
             };
 
             var token = TokenService.GetToken(claims);

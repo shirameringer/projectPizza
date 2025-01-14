@@ -28,7 +28,7 @@ public class CustomMiddleWare
         _IFileService.Write("method"+httpContext.Request.Method.ToString());
         _IFileService.Write("header"+httpContext.Request.Headers.ToString());
         _IFileService.Write("body"+httpContext.Request.Body.ToString());
-        _IFileService.Write("action"+httpContext.GetEndpoint().ToString());
+        // _IFileService.Write("action"+httpContext.GetEndpoint().ToString());
 
         var task=_next(httpContext);
         _IFileService.Write("time respomse"+DateTime.Now.ToString());

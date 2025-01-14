@@ -45,7 +45,7 @@ public class workerService : Iworker
   {
     _IFileService.Write(w);
   }
-  public List<Worker> GetListOfWorker()
+  public List<Worker> readWorker()
   {
     return _IFileService.Read();
   }

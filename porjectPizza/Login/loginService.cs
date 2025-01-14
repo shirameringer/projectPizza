@@ -1,4 +1,5 @@
 using System.Security.Claims;
+using fileScdervices.Interface;
 using Login.Interface;
 using myModels;
 using myServices;
@@ -8,22 +9,25 @@ namespace Login.service;
 
 public class LoginService : Ilogin
 {
-    List<Worker> workerList = new List<Worker>(){
-          new Worker(10,"shira","meringer","ggg","jjj")
-
-        };
+    readonly IfileServices<Worker> worker;
+    public LoginService(IfileServices<Worker> w)
+    {
+        worker = w;
+    }
 
     public Worker IsWorkerValid(string name, string password)
     {
-       
-        foreach (var w in workerList){
-            if(w.firstName==name&&w.password==password){
+        List<Worker> workerList = worker.Read();
+        foreach (var w in workerList)
+        {
+            if (w.firstName == name && w.password == password)
+            {
                 return w;
             }
 
         }
-            return null;
+        return null;
     }
-    
+
 
 }

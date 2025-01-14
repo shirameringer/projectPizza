@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myServices\\myServices.csproj": {}
+    "H:\\web lesson 7\\projectPizza\\myServices\\myServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\fileServices\\fileServices.csproj": {
+    "H:\\web lesson 7\\projectPizza\\fileServices\\fileServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\fileServices\\fileServices.csproj",
+        "projectUniqueName": "H:\\web lesson 7\\projectPizza\\fileServices\\fileServices.csproj",
         "projectName": "fileServices",
-        "projectPath": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\fileServices\\fileServices.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\fileServices\\obj\\",
+        "projectPath": "H:\\web lesson 7\\projectPizza\\fileServices\\fileServices.csproj",
+        "packagesPath": "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\",
+        "outputPath": "H:\\web lesson 7\\projectPizza\\fileServices\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\מרינגר דינה שירה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,21 +66,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myModels\\myModels.csproj": {
+    "H:\\web lesson 7\\projectPizza\\myModels\\myModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myModels\\myModels.csproj",
+        "projectUniqueName": "H:\\web lesson 7\\projectPizza\\myModels\\myModels.csproj",
         "projectName": "myModels",
-        "projectPath": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myModels\\myModels.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myModels\\obj\\",
+        "projectPath": "H:\\web lesson 7\\projectPizza\\myModels\\myModels.csproj",
+        "packagesPath": "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\",
+        "outputPath": "H:\\web lesson 7\\projectPizza\\myModels\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\מרינגר דינה שירה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,14 +92,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\fileServices\\fileServices.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\fileServices\\fileServices.csproj"
+              "H:\\web lesson 7\\projectPizza\\fileServices\\fileServices.csproj": {
+                "projectPath": "H:\\web lesson 7\\projectPizza\\fileServices\\fileServices.csproj"
               }
             }
           }
@@ -104,11 +109,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -130,21 +130,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myServices\\myServices.csproj": {
+    "H:\\web lesson 7\\projectPizza\\myServices\\myServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myServices\\myServices.csproj",
+        "projectUniqueName": "H:\\web lesson 7\\projectPizza\\myServices\\myServices.csproj",
         "projectName": "myServices",
-        "projectPath": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myServices\\myServices.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myServices\\obj\\",
+        "projectPath": "H:\\web lesson 7\\projectPizza\\myServices\\myServices.csproj",
+        "packagesPath": "C:\\Users\\מרינגר דינה שירה\\.nuget\\packages\\",
+        "outputPath": "H:\\web lesson 7\\projectPizza\\myServices\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\מרינגר דינה שירה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,17 +156,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\fileServices\\fileServices.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\fileServices\\fileServices.csproj"
+              "H:\\web lesson 7\\projectPizza\\fileServices\\fileServices.csproj": {
+                "projectPath": "H:\\web lesson 7\\projectPizza\\fileServices\\fileServices.csproj"
               },
-              "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myModels\\myModels.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\פרויקט web\\projectPizza\\myModels\\myModels.csproj"
+              "H:\\web lesson 7\\projectPizza\\myModels\\myModels.csproj": {
+                "projectPath": "H:\\web lesson 7\\projectPizza\\myModels\\myModels.csproj"
               }
             }
           }
@@ -171,11 +176,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -197,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

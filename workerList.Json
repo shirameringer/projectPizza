@@ -1,0 +1,30 @@
+[
+    {
+        "id": 4,
+        "firstName": "shira",
+        "lastName": "meringer",
+        "password": "123",
+        "role": "admin"
+    },
+    {
+        "id": 789,
+        "firstName": "giti",
+        "lastName": "borshtain",
+        "password": "123",
+        "role": "main"
+    },
+    {
+        "id": 3,
+        "firstName": "sara",
+        "lastName": "shmol",
+        "password": "123",
+        "role": "false"
+    },
+    {
+        "id": 50,
+        "firstName": "efrat",
+        "lastName": "marko",
+        "password": "12345",
+        "role": "superWorker"
+    }
+]

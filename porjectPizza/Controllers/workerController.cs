@@ -25,7 +25,7 @@ public class workerController : Basecontrollers
 
     [Route("[action]/{id}")]
     [HttpGet]
-    [Authorize(Policy = "Admin")]
+    // [Authorize(Policy = "Admin")]
     public IActionResult getWorkerById(int id)
     {
         string w1;
@@ -40,7 +40,7 @@ public class workerController : Basecontrollers
     }
     [Route("[action]/{id}/{ifgloten}/{pizzaName}")]
     [HttpPost]
-    [Authorize(Policy = "Admin")]
+    // [Authorize(Policy = "Admin")]
 
     public IActionResult postworker(int id, string fname, string lNmae, string password, string role)
     {
@@ -50,16 +50,19 @@ public class workerController : Basecontrollers
     }
     [HttpGet]
     [Route("[action]")]
-    public List<Worker> GetListOfWorker()
+    public IActionResult readWorker()
     {
-        return _IFileService.Read();
+    
+        return Ok();
+
     }
     [HttpPost]
     [Route("[action]")]
     [Authorize(Policy = "superWorker")]
-    public void writeWorker([FromBody] Worker w)
+    public IActionResult writeWorker( Worker w)
     {
-        _IFileService.Write(w);
+       _worker.writeWorker(w);
+       return Ok();
     }
 
 }

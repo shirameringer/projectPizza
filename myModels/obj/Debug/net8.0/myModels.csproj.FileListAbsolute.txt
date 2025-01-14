@@ -105,3 +105,19 @@ C:\Users\USER\Desktop\פרויקט web\projectPizza\myModels\obj\Debug\net8.0\my
 C:\Users\USER\Desktop\פרויקט web\projectPizza\myModels\obj\Debug\net8.0\refint\myModels.dll
 C:\Users\USER\Desktop\פרויקט web\projectPizza\myModels\obj\Debug\net8.0\myModels.pdb
 C:\Users\USER\Desktop\פרויקט web\projectPizza\myModels\obj\Debug\net8.0\ref\myModels.dll
+H:\web lesson 7\projectPizza\myModels\bin\Debug\net8.0\myModels.deps.json
+H:\web lesson 7\projectPizza\myModels\bin\Debug\net8.0\myModels.dll
+H:\web lesson 7\projectPizza\myModels\bin\Debug\net8.0\myModels.pdb
+H:\web lesson 7\projectPizza\myModels\bin\Debug\net8.0\fileServices.dll
+H:\web lesson 7\projectPizza\myModels\bin\Debug\net8.0\fileServices.pdb
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\myModels.csproj.AssemblyReference.cache
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\myModels.GeneratedMSBuildEditorConfig.editorconfig
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\myModels.AssemblyInfoInputs.cache
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\myModels.AssemblyInfo.cs
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\myModels.csproj.CoreCompileInputs.cache
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\myModels.sourcelink.json
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\myModels.csproj.CopyComplete
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\myModels.dll
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\refint\myModels.dll
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\myModels.pdb
+H:\web lesson 7\projectPizza\myModels\obj\Debug\net8.0\ref\myModels.dll
