@@ -1,0 +1,38 @@
+[
+    {
+        "pizzaName": "hghg",
+        "count": 2,
+        "forPay": 55.0,
+        "customerName": "bkk",
+        "cardDetails": {
+            "creditNum": 456464534131,
+            "validity": "jbhj",
+            "threeDigit": 21213
+        },
+        "email": "hhfhc"
+    },
+    {
+        "pizzaName": "pizza shira",
+        "count": 2,
+        "forPay": 100.0,
+        "customerName": "shira",
+        "cardDetails": {
+            "creditNum": 1234568789,
+            "validity": "10/05",
+            "threeDigit": 123
+        },
+        "email": "s0548543446@gmail.com"
+    },
+    {
+        "pizzaName": "gitty",
+        "count": 2,
+        "forPay": 100.0,
+        "customerName": "gitty",
+        "cardDetails": {
+            "creditNum": 123564687978,
+            "validity": "08/10",
+            "threeDigit": 123
+        },
+        "email": "fghfj"
+    }
+]

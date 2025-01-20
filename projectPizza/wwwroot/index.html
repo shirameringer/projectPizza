@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Management</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <div class="login-container">
+        <form class="login-form" id="loginForm" onsubmit="return login(event)">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button> <!-- Removed onclick here, already handled in login() -->
+        </form>
+    </div>
+    <div class="container" id="managementContainer" style="display: none;">
+        <h1>Pizza Management</h1>
+        
+        <!-- כפתור הוספת פיצה -->
+        <button id="showFormButton" onclick="showForm()">Add Pizza</button>
+        
+        <!-- טופס הוספת פיצה -->
+        <div id="pizzaForm" class="form-container" style="display: none;">
+            <form id="addPizzaForm">
+                <label for="id">ID</label>
+                <input id="id" type="text" placeholder="Enter Pizza ID" />
+
+                <label for="if_gloten">Gluten-Free</label>
+                <input id="if_gloten" type="text" placeholder="true/false" />
+
+                <label for="name">Pizza Name</label>
+                <input id="name" type="text" placeholder="Enter Pizza Name" />
+
+                <label for="price">Price</label>
+                <input id="price" type="text" placeholder="Enter Price" />
+
+                <button type="button" onclick="addPizza()">Submit</button>
+            </form>
+        </div>
+
+        <!-- כפתור הוספת עובד -->
+        <button id="showWorkerFormButton" onclick="showWorkerForm()">Add Worker</button>
+
+        <!-- טופס הוספת עובד -->
+        <div id="workerForm" class="form-container" style="display: none;">
+            <form id="addWorkerForm">
+                <label for="worker_id">Worker ID:</label>
+                <input type="text" id="worker_id" placeholder="Enter worker ID" required><br>
+
+                <label for="fname_worker">First Name:</label>
+                <input type="text" id="fname_worker" placeholder="Enter first name" required><br>
+
+                <label for="lname_worker">Last Name:</label>
+                <input type="text" id="lname_worker" placeholder="Enter last name" required><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter password" required><br>
+
+                <label for="role">Role:</label>
+                <select id="role" required>
+                    <option value="worker">worker</option>
+                    <option value="superWorker">superWorker</option>
+                </select><br>
+
+                <button type="button" onclick="addWorker()">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/pizza.js"></script>
+</body>
+
+</html>

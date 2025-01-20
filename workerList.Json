@@ -4,7 +4,7 @@
         "firstName": "shira",
         "lastName": "meringer",
         "password": "123",
-        "role": "admin"
+        "role": "superWorker"
     },
     {
         "id": 789,
@@ -26,5 +26,19 @@
         "lastName": "marko",
         "password": "12345",
         "role": "superWorker"
+    },
+    {
+        "id": 0,
+        "firstName": "string",
+        "lastName": "string",
+        "password": "string",
+        "role": "string"
+    },
+    {
+        "id": 0,
+        "firstName": "string",
+        "lastName": "string",
+        "password": "string",
+        "role": "string"
     }
 ]

@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 namespace myModels.Interfaces;
 
 public interface Ipizza{
-string  GetPizzaName(int id);
-double GetPizzaprice(string name);
+string  GetPizzaNameById(int id);
+double GetPizzaPriceById(string name);
 bool UpdateId(int id,int newid);
-bool DeleletItem(string name);
-void AddItem(int id,bool ifgloten,string pizzaName,double price);
+bool DeleletPizza(string name);
+void AddPizza(int id,bool ifgloten,string pizzaName,double price);
 }

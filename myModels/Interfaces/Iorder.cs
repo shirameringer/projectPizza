@@ -6,6 +6,8 @@ namespace myModels.Interfaces;
 
     public interface Iorder
     {
-        void postOrder(string pizzaName,int count,string customerName);
-       
+        Task<string> postOrder(string pizzaName,int count,string customerName,double price,long creditNum,string validity,int threeDigit,string email);
+        Task<string> toPayAsync();
+        Task<string> makeingPizzaAsync(Order o);
+        void printBill(Order o);
     }

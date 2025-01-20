@@ -41,7 +41,7 @@ public class workerService : Iworker
 
 
   }
-  public void writeWorker(Worker w)
+  public void addWorker(Worker w)
   {
     _IFileService.Write(w);
   }
